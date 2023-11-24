@@ -6,6 +6,7 @@ numberconversion.o: numberconversion.cpp numberconversion.h
 	$(CXX) $(CXXFLAGS) -c numberconversion.cpp
 romandigitconverter.o: romandigitconverter.cpp
 	$(CXX) $(CXXFLAGS) -c romandigitconverter.cpp
+.PHONY : clean
 clean:
 	rm *.o
 	rm programname
